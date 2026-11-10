@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contatos | Casa &amp; Estilo</title>
+  <meta name="description" content="Fale com o blog Casa &amp; Estilo: envie dúvidas de decoração, sugestões de pauta ou fotos do seu projeto.">
+  <meta name="author" content="Thomás Lima Braga">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="cabecalho">
+    <div class="container">
+      <a class="marca" href="index.html">Casa &amp; Estilo<span>Blog de Decoração</span></a>
+      <nav class="menu" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="estilos.html">Estilos</a></li>
+          <li><a href="ambientes.html">Ambientes</a></li>
+          <li><a href="tendencias.html">Tendências</a></li>
+          <li><a href="contatos.html" class="ativo" aria-current="page">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="topo-pagina">
+      <div class="container">
+        <h1>Contatos</h1>
+        <p>Dúvidas sobre um ambiente específico, sugestões de pauta ou vontade de mostrar o seu projeto? Escreva para a
+          gente — todas as mensagens são lidas.</p>
+      </div>
+    </section>
+
+    <section class="secao">
+      <div class="container">
+        <div class="duas-colunas">
+
+          <div>
+            <h2>Envie uma mensagem</h2>
+            <form class="form-contato" action="#" method="post">
+              <div class="campo">
+                <label for="nome">Nome completo</label>
+                <input type="text" id="nome" name="nome" placeholder="Como podemos chamar você?" required>
+              </div>
+              <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+              </div>
+              <div class="campo">
+                <label for="assunto">Assunto</label>
+                <select id="assunto" name="assunto" required>
+                  <option value="">Selecione uma opção</option>
+                  <option value="duvida">Dúvida de decoração</option>
+                  <option value="pauta">Sugestão de pauta</option>
+                  <option value="projeto">Quero mostrar meu projeto</option>
+                  <option value="parceria">Parceria</option>
+                </select>
+              </div>
+              <div class="campo">
+                <label for="ambiente">Ambiente de interesse</label>
+                <select id="ambiente" name="ambiente">
+                  <option value="">Nenhum em especial</option>
+                  <option value="sala">Sala de estar</option>
+                  <option value="quarto">Quarto</option>
+                  <option value="cozinha">Cozinha</option>
+                  <option value="home-office">Home office</option>
+                </select>
+              </div>
+              <div class="campo">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Conte um pouco sobre o seu espaço: metragem, iluminação, o que incomoda hoje..." required></textarea>
+              </div>
+              <button type="submit" class="botao">Enviar mensagem</button>
+              <p class="aviso">Formulário demonstrativo: este blog é um trabalho acadêmico e não possui servidor para
+                processar os dados enviados.</p>
+            </form>
+          </div>
+
+          <div>
+            <h2>Outros canais</h2>
+            <ul class="lista-contato">
+              <li><strong>E-mail</strong> contato@casaeestilo.com.br</li>
+              <li><strong>Telefone</strong> (27) 3000-0000</li>
+              <li><strong>Instagram</strong> @casaeestilo.blog</li>
+              <li><strong>Horário de atendimento</strong> Segunda a sexta, das 9h às 18h</li>
+            </ul>
+
+            <h2>Endereço</h2>
+            <address>
+              Universidade de Vila Velha<br>
+              Rua Comissário José Dantas de Melo, 21 — Boa Vista<br>
+              Vila Velha — ES, 29102-920
+            </address>
+
+            <figure class="artigo-figura" style="margin-top:1.5rem">
+              <img src="assets/img/contatos-ambiente.jpg" alt="Sala integrada à cozinha, com poltrona vermelha e mesa de jantar clara" width="1200" height="801" loading="lazy">
+              <figcaption>Mande uma foto do seu ambiente junto com a mensagem.</figcaption>
+            </figure>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-clara">
+      <div class="container texto-largura">
+        <h2>Perguntas frequentes</h2>
+        <h3>O blog faz projetos de decoração?</h3>
+        <p>Não. O Casa &amp; Estilo é um blog de conteúdo: publicamos guias e orientações gerais. Para projetos
+          executivos, procure um profissional de arquitetura ou design de interiores.</p>
+        <h3>Posso reutilizar os textos?</h3>
+        <p>Sim, para fins educacionais, desde que a fonte seja citada. As fotografias são de bancos de imagem gratuitos
+          e seguem as licenças dos autores originais.</p>
+        <h3>Em quanto tempo recebo resposta?</h3>
+        <p>Como o formulário é demonstrativo, use o e-mail acima: respondemos em até três dias úteis.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <div>
+        <h2>Casa &amp; Estilo</h2>
+        <p>Blog de decoração criado como trabalho acadêmico da disciplina Programação Web - Frontend.</p>
+      </div>
+      <div>
+        <h2>Navegação</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="estilos.html">Estilos</a></li>
+          <li><a href="ambientes.html">Ambientes</a></li>
+          <li><a href="tendencias.html">Tendências</a></li>
+          <li><a href="contatos.html">Contatos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Autoria</h2>
+        <p>Thomás Lima Braga — matrícula 202634701<br>
+          Universidade de Vila Velha — Ciência da Computação</p>
+      </div>
+    </div>
+    <div class="container">
+      <p class="rodape-creditos">© 2026 Casa &amp; Estilo — conteúdo produzido para fins acadêmicos. Imagens: Unsplash.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
