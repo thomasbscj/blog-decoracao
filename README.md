@@ -18,6 +18,7 @@ Blog estático sobre decoração de interiores, desenvolvido apenas com **HTML5 
 | Ambientes | `ambientes.html` | Sala, quarto, cozinha e home office |
 | Tendências | `tendencias.html` | Cores, materiais naturais, iluminação e paredes-galeria |
 | Contatos | `contatos.html` | Formulário, canais de contato e perguntas frequentes |
+| Confirmação | `obrigado.html` | Página de retorno do formulário (não faz parte do menu) |
 
 O elemento `<nav>` com os cinco itens de navegação é repetido em todas as páginas.
 
@@ -30,6 +31,7 @@ O elemento `<nav>` com os cinco itens de navegação é repetido em todas as pá
 ├── ambientes.html
 ├── tendencias.html
 ├── contatos.html
+├── obrigado.html
 ├── css/style.css
 ├── assets/img/        fotografias (Unsplash)
 ├── assets/favicon.svg
